@@ -71,30 +71,34 @@ Widget description = Container(
                 text: 'Neapolitan ice cream',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Times New Roman',
                 )
               ),
               TextSpan(
                 text: ', also sometimes called '
               ),
               TextSpan(
-                text: 'Harlequin ice cream,',
+                text: 'Harlequin ice cream',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Times New Roman',
                 )
               ),
               TextSpan(
-                text: '\u00B2 ',
+                text: '\u00B2',
                 style: TextStyle(
-                  color: Colors.blue
+                  color: Colors.blue,
+                  fontFamily: 'Times New Roman',
                 )
               ),
               TextSpan(
-                text: 'is a type of ice cream composed of three separate flavors ('
+                text: ', is a type of ice cream composed of three separate flavors ('
               ),
               TextSpan(
                 text: 'vanilla',
                 style: TextStyle(
-                  color: Colors.blue
+                  color: Colors.blue,
+                  fontFamily: 'Times New Roman',
                 )
               ),
               TextSpan(
@@ -103,7 +107,8 @@ Widget description = Container(
               TextSpan(
                 text: 'chocolate',
                 style: TextStyle(
-                  color: Colors.blue
+                  color: Colors.blue,
+                  fontFamily: 'Times New Roman',
                 )
               ),
               TextSpan(
@@ -112,7 +117,8 @@ Widget description = Container(
               TextSpan(
                 text: 'strawberry',
                 style: TextStyle(
-                  color: Colors.blue
+                  color: Colors.blue,
+                  fontFamily: 'Times New Roman',
                 )
               ),
               TextSpan(
@@ -122,10 +128,10 @@ Widget description = Container(
           ),
         ), 
       ),
-        Icon(
-          Icons.edit_sharp,
-          color: Colors.white,
-        ),
+      Icon(
+        Icons.edit_sharp,
+        color: Colors.white,
+      ),
     ],
   ),
 );
