@@ -61,7 +61,7 @@ Widget description = Container(
         child: Text.rich(
           TextSpan(
             style: TextStyle(
-              fontSize: 18, 
+              fontSize: 16, 
               color: Colors.white,
               fontFamily: 'Times New Roman',
               //fontWeight: FontWeight.bold,
@@ -163,6 +163,20 @@ Widget description = Container(
               ]
             ),
             titre,
+            Container(
+              padding: const EdgeInsetsDirectional.only(start:32),
+              alignment: AlignmentDirectional.centerStart,
+              child:
+              Text(
+                '_______________________',
+                textAlign: TextAlign.start,
+                style: TextStyle(
+                color: Colors.white,
+                fontFamily: 'Times New Roman',
+                fontWeight: FontWeight.w100,
+                ),
+              ),
+            ),
             description,
           ], 
         ),
